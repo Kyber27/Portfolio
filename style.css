@@ -117,3 +117,9 @@ section h2 {
   color: #d1d5db;
   line-height: 1.6;
 }
+
+.tech {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin-top: 0.5rem;
+}
