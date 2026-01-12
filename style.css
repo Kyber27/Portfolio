@@ -1,0 +1,119 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f9fafb;
+  color: #111827;
+}
+
+header {
+  background: #1e1e2f;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.project {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #e5e7eb;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #6366f1;
+  padding-left: 0.75rem;
+}
+
+/* Cartes génériques */
+.parcours-item,
+.project,
+.hobby {
+  background: #1c1c27;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.parcours-item:hover,
+.project:hover,
+.hobby:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+/* ============================= */
+/* GRILLE POUR LES HOBBIES */
+/* ============================= */
+
+.hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+/* ============================= */
+/* PROJETS */
+/* ============================= */
+
+.project h3 {
+  margin-top: 0;
+  color: #c7d2fe;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #818cf8;
+  font-weight: 500;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.parcours-item,
+.project,
+.hobby {
+  color: #f3f4f6; /* texte clair */
+}
+
+.parcours-item h3,
+.hobby h3 {
+  color: #e0e7ff;
+}
+
+.parcours-item p,
+.hobby p {
+  color: #d1d5db;
+  line-height: 1.6;
+}
